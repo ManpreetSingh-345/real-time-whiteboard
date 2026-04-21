@@ -26,6 +26,32 @@ function App() {
           Join WhiteBoard Now
         </button>
       </main>
+      <section className="flex flex-col py-20 gap-2 bg-radial-[at_50%_25%] from-70% from-[#D7DEDC] to-[#9A879D]">
+        <div className="flex justify-center flex-col items-center py-20 gap-2">
+          <h1 className="text-3xl font-bold">
+            A Collaborative Approach to Brain Storming
+          </h1>
+          <p>
+            Work together with others in a high-performance, smooth environment
+          </p>
+        </div>
+        <div className="py-20 grid grid-cols-3 items-center place-items-center text-center text-wrap">
+          <div>
+            <p className="font-bold">Real time collaboration</p>
+            <p>Work with others real time in a collaborative environment</p>
+          </div>
+          <div>
+            <p className="font-bold">Excellent User Experience (UI/UX)</p>
+            <p>Experience high-performance user experience</p>
+          </div>
+          <div>
+            <p className="font-bold">Advanced AI Capabilities</p>
+            <p>
+              Utilize AI to its fullest potential in a configured environment
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
